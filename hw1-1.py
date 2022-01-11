@@ -66,8 +66,4 @@ def revised_reversed_guessing_game(min, max):
 
 
 reversed_guessing_game()
-<<<<<<< HEAD
 # revised_reversed_guessing_game(1, 10000)
-=======
-# revised_reversed_guessing_game(1, 10000)
->>>>>>> f2b514155c29322bc752e9e9a094eae97149e0e5
