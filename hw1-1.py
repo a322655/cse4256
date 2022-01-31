@@ -65,5 +65,10 @@ def revised_reversed_guessing_game(min, max):
             print("You are cheating!")
 
 
-reversed_guessing_game()
-# revised_reversed_guessing_game(1, 10000)
+'''
+Question 4:
+Binary search narrows the interval by half each time.
+So the size of the interval is from n/2^0,n/2^1,n/2^2,..., to n/2^k-1,n/2^k.
+When n/2^k=1, we have found the item we need to find.
+At this time, k=logn.
+'''
